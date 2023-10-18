@@ -11,7 +11,7 @@ namespace APIFechas.Controllers
         [HttpGet]
         public Fecha Get() => new Fecha();
 
-        [HttpGet("dia")]
+        [HttpGet("dia")] //test
         public int GetNumeroDia() => new Fecha().DiaSemana;
     }
 }
